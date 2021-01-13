@@ -30,7 +30,7 @@ int main( int argc, char** argv ) {
         err( "Failed to open BMP file or reading header.\n" );
     }
 
-    struct image img = {h.biWidth, h.biHeight};
+    struct image img = {h.biWidth, h.biHeight, NULL};
     FILE* in_file = NULL;
     FILE* out_file = NULL;
 

@@ -12,7 +12,7 @@ bmp_header.o: image/bmp/bmp_header.c
 rotate.o: image/image_operations/rotate.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
-file.o: image/file_operations/file.c
+file.o: file_operations/file.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
 main.o: main.c
