@@ -13,7 +13,7 @@ void usage() {
 
 void err(char* message)
 {
-    printf("%s", message);
+    fprintf(stderr,"%s", message);
     exit(1);
 }
 
